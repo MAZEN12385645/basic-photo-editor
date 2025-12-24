@@ -1,4 +1,4 @@
-# very basic photo editor 
+# very simple photo editor 
 
 
 
