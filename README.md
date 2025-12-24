@@ -1,7 +1,8 @@
-#very basic photo editor 
+# very basic photo editor 
 
 
-##Tools
+
+## Tools
 
 
 React 
