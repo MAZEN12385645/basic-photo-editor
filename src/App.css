@@ -1,0 +1,71 @@
+*{
+  transition: 0.5s ease-in-out;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.insert{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+    background: url(Background.jfif) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.insert .ins{
+  opacity: 0;
+  width: 800px;
+  height: 500px;
+}
+.insert img {
+  width: 100%;
+  height: auto;
+}
+.photos{
+  display: flex;
+  justify-content: space-around;
+}
+.photos img{
+      padding: 10px 10px;
+  width: 50px;
+  height: auto;
+}
+input[type="range"] {
+  -webkit-appearance: none; /* نشيل الشكل الافتراضي */
+  width: 300px;
+  height: 5px;
+  background: #000000;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* للدايرة (Chrome, Safari, Edge) */
+input[type="range"]::-webkit-slider-thumb { 
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; /* نخليها دايرة */
+  background: rgb(0, 255, 42);   /* بيضا */
+  border: 2px solid gray; /* خط حوالين الدايرة */
+  cursor: pointer;
+}
+
+/* للدايرة (Firefox) */
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+  button {
+    margin: 10px 0;
+  }
